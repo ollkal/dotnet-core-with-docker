@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  webservice:
+    image: webimage
+    ports:
+      - "5001:5001"

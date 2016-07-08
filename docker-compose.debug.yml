@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  webservice:
+    image: webimage:debug
+    ports:
+      - "5001:5001"
+    environment:
+      - REMOTE_DEBUGGING
